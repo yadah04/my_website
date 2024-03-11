@@ -1,0 +1,91 @@
+/* background style end =================================== */
+.bg {
+    background-image: url('../images/image-omelette.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 100px;
+    border-radius: 10px;
+    margin: auto 88px;
+    margin-top: 40px;
+}
+.container{
+  margin: 40px 40px;
+}
+
+/* heading text style end =================================== */
+
+.body-section{
+  margin: 89px;
+}
+
+  /* body text style===========================================*/
+
+.preparation {
+  background-color: rgb(237, 218, 223);
+  margin: 30px 90px 90px 90px;
+  padding: 50px;
+  font-size: small;
+}
+/* preparation style end ==================================== */
+
+
+.head {
+  color: rgb(182, 57, 57);
+  margin-left: 91px;
+}
+
+tr, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  width: 82%;
+  
+}
+
+.footer {
+  text-align: center;
+  background-color: lightgray;
+  padding: 20px;
+}
+.kcal{
+  color:rgb(182, 57, 57)
+}
+.og{
+  color:rgb(182, 57, 57)
+}
+.gg{
+  color:rgb(182, 57, 57)
+}
+.g{
+  color:rgb(182, 57, 57)
+}
+.headd{
+  color: rgb(182, 57, 57);
+}
+.line{
+  margin-right: 9%;
+}
+
+
+/* CSS for responsiveness */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Adjust styles for smaller screens */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 10px;
+  }
+}
+
+/* Adjust styles for smaller screens */
+@media (max-width: 480px) {
+  .headd {
+    font-size: 24px;
+  }
+}
+
